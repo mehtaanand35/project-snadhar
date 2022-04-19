@@ -1,0 +1,61 @@
+.banner-cont {
+  height: 500px;
+  width: 100%;
+}
+.bg-img {
+  background-image: url("https://sandhartrucking.com/wp-content/uploads/2020/09/Homepage-Banner-Sandhar-Trucking-min-scaled.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 80%;
+  position: relative;
+}
+.bg-colr {
+  width: 100%;
+  height: 100%;
+  background-color: #363433;
+  opacity: 0.7;
+  position: absolute;
+}
+.cont {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  width: 90%;
+  height: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.cont p:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+}
+.cont p:nth-child(2) {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.banner-cont button {
+  padding: 10px 15px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5%;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.banner-cont button:hover {
+  background-color: #80194d;
+  border: none;
+}
+@media only screen and (min-width: 320px) {
+  .cont p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .cont p:nth-child(2) {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+}

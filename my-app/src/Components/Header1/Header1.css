@@ -1,0 +1,67 @@
+.Header1{
+width: 100%;
+height: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+background-color: #80194d;
+}
+.Hcall{
+height: 60%;
+width: 35%;
+display: flex;
+border-right: 1px solid white;
+}
+.Hmail{
+    height: 60%;
+    width: 25%;
+    display: flex;
+    border-right: 1px solid white;
+}
+.Hdate{
+    height: 60%;
+    width: 35%;
+    display: flex;
+}
+.cont1,.cont3{
+    height: 60%;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.cont1 p{
+    font-size: 16px;
+    width: 100%;
+    margin-left: 15%;
+    color: white;
+}
+.cont2{
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.cont2 p{
+    font-size: 16px;
+    width: 100%;
+    margin-left: 15%;
+    color: white;
+}
+.cont3 p{
+    font-size: 15px;
+    width: 100%;
+    margin-left: 15%;
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .Header1{
+        display: none;
+    }
+  }

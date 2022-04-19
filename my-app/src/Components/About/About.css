@@ -1,0 +1,38 @@
+.about {
+  width: 90%;
+  height: 700px;
+  margin: auto;
+  margin-top: 3%;
+  background-color: #80194d;
+}
+.abt-head {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border: 1px solid  transparent;
+}
+.abt-cont {
+  display: flex;
+  justify-content: space-around;
+  height: 80%;
+}
+.abt-cont > div {
+  height: 100%;
+  width: 45%;
+  color: white;
+}
+.abt-cont button {
+  padding: 8px 15px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5%;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 15%;
+}
+.abt-cont button:hover {
+  background-color: white;
+  border: none;
+  color: black;
+}

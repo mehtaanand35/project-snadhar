@@ -1,0 +1,32 @@
+.middle2 {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.middle2 div {
+  width: 40%;
+  height: 100%;
+}
+.middle2-cont {
+  font-size: 20px;
+}
+.middle2-cont>p{
+  color: black;
+}
+.middle2-cont button {
+  padding: 8px 15px;
+  color: #80194d;
+  border: 1px solid black;
+  border-radius: 5%;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.middle2-cont button:hover{
+    background-color: #80194d;
+    border: none;
+    color: white;
+}

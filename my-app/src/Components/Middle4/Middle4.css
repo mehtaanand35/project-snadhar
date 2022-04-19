@@ -1,0 +1,18 @@
+.mdl4-head {
+  text-align: center;
+}
+.mdl4-cont {
+  width: 85%;
+
+  height: 720px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.mdl4-cont > div {
+  width: 49%;
+  height: 100%;
+}
+.mdl4-cont>div>p{
+  color: black;
+}

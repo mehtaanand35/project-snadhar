@@ -1,0 +1,40 @@
+.middle3 {
+  background-color: #80194d;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle3-cont {
+  width: 60%;
+  height: 80%;
+  color: white;
+}
+.middle3-cont p {
+  text-align: start;
+}
+.middle3-img {
+  width: 30%;
+  height: 80%;
+}
+.middle3-cont > button {
+  padding: 8px 15px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5%;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.middle3-cont button:hover {
+  background-color: white;
+  border: none;
+  color: black;
+}
+.dot1 {
+  border: 1px solid red;
+  height: 80%;
+  width: 100%;
+}
